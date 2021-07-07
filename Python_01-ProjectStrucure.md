@@ -10,7 +10,7 @@
 
 # 项目结构
 
-[![](https://img.shields.io/badge/Github-%E8%AF%B7%E7%82%B9%E4%B8%AAStar%EF%BC%8C%E6%84%9F%E8%B0%A2%EF%BC%81-red)](https://github.com/liuyangly1/Python) [![](https://img.shields.io/badge/CSDN-%E8%AF%B7%E7%82%B9%E4%B8%80%E4%B8%AA%E5%85%B3%E6%B3%A8%EF%BC%8C%E6%84%9F%E8%B0%A2%EF%BC%81-brightgreen)](https://blog.csdn.net/liuyang_1106)
+[<img src="https://img.shields.io/badge/Github-%E8%AF%B7%E7%82%B9%E4%B8%AAStar%EF%BC%8C%E6%84%9F%E8%B0%A2%EF%BC%81-red" />](https://github.com/liuyangly1/Python) [<img src="https://img.shields.io/badge/CSDN-%E8%AF%B7%E7%82%B9%E4%B8%80%E4%B8%AA%E5%85%B3%E6%B3%A8%EF%BC%8C%E6%84%9F%E8%B0%A2%EF%BC%81-brightgreen" />](https://blog.csdn.net/liuyang_1106)
 
 ## 1. 项目结构目录
 
@@ -46,47 +46,46 @@ ProjectName
 |-- README                  # 项目说明文档
 ```
 - 开源项目还涉及LICENSE.txt,ChangeLog.txt文件等。
-- 数据文件夹data等。
+- 还可以额外添加数据文件夹data等。
 
-## 2. 项目生成脚本python-script.py
+## 2. 项目创建脚本
 
 ```python
-#!/usr/bin/env python
+#!/usr/bin/env/python
 # -*- encoding: utf-8 -*-
-'''
--------------------------------------------
-@File    :   project_structure.py
-@Time    :   2020/08/24 11:19:37
-@Author  :   liuyangly1
-@Version :   1.0
-@Contact :   522927317@qq.com
-@Desc    :   A python project structure.
-            ProjectName
-                |-- bin/                    # 存放脚本，执行文件
-                |   |-- projectname
-                |
-                |-- projectname/            # 存放项目的所有源代码，包括所有模块和包
-                |   |-- tests/              # 存放单元测试代码
-                |   |   |-- __init__.py
-                |   |   |-- test_main.py
-                |   |
-                |   |-- __init__.py
-                |   |-- main.py             # 程序的入口
-                |
-                |-- docs/                   # 文档
-                |   |-- abc.rst
-                |
-                |-- conf/                   # 配置
-                |   |-- settings.py
-                |
-                |-- logs/                   # 日志
-                |   |-- logs.txt
-                |
-                |-- setup.py                # 安装、部署、打包的脚本
-                |-- requirements.txt        # 存放软件依赖的外部Python包列表
-                |-- README 
--------------------------------------------
-'''
+"""
+################################################################################
+@File              :   project_structure.py
+@Time              :   2021/7/7 19:35:20
+@Author            :   liuyangly1
+@Email             :   522927317@qq.com
+@Desc              :   A python project structure  of creating script.
+ProjectName
+    |-- bin/                    # 存放脚本，执行文件
+    |   |-- projectname
+    |
+    |-- projectname/            # 存放项目的所有源代码，包括所有模块和包
+    |   |-- tests/              # 存放单元测试代码
+    |   |   |-- __init__.py
+    |   |   |-- test_main.py
+    |   |
+    |   |-- __init__.py
+    |   |-- main.py             # 程序的入口
+    |
+    |-- docs/                   # 文档
+    |   |-- abc.rst
+    |
+    |-- conf/                   # 配置
+    |   |-- settings.py
+    |
+    |-- logs/                   # 日志
+    |   |-- logs.txt
+    |
+    |-- setup.py                # 安装、部署、打包的脚本
+    |-- requirements.txt        # 存放软件依赖的外部Python包列表
+    |-- README 
+################################################################################
+"""
 import os
 import argparse
 
@@ -146,3 +145,4 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
