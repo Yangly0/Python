@@ -19,15 +19,14 @@
 ## 2. 代码结构
 
 ```python
-#!D:/Miniconda3/envs/cv/python
+#!/usr/bin/env/python
 # -*- encoding: utf-8 -*-
 """
 #############################################################################
-@File              :   CodeStructure.py
+@File              :   code_structure.py
 @Time              :   2021/04/25 14:18:23
 @Author            :   liuyangly1
 @Email             :   522927317@qq.com
-@Version           :   1.0
 @Desc              :   代码结构
 #############################################################################
 """
@@ -137,7 +136,10 @@ if __name__ == "__main__":
 ## 9. 用户输入
 
 ```python
-raw_input("按下 enter 键退出，其他任意键显示...\n")
+>>> input("按下 enter 键退出，其他任意键显示...\n")
+按下 enter 键退出，其他任意键显示...
+Hello, world!
+'Hello, world!'
 ```
 
 ## 10. 同一行显示多条语句
