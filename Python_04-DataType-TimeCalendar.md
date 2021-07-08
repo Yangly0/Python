@@ -398,9 +398,15 @@ time.struct_time(tm_year=2017, tm_mon=2, tm_mday=4, tm_hour=20, tm_min=57, tm_se
 
 **初始化**
 
+略
+
 **类方法和属性**
 
+略
+
 **对象方法和属性**
+
+略
 
 ```
 
