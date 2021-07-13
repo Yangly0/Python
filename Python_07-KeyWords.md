@@ -297,7 +297,7 @@ Traceback (most recent call last):
 AssertionError
 ```
 
-## 8.None关键字
+## 8. 空关键字
 
 None：代表空，是python解释器的一个内置的关键字变量，本质是一个object()，类似于C++的NULL。
 
